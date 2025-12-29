@@ -331,7 +331,7 @@ Ce projet s'appuie sur les concepts du cours d'Analyse Numérique, notamment :
 
 ---
 
-## 🎓 Contribution principale : Méthode de Newton-Raphson
+##  Contribution principale : Méthode de Newton-Raphson
 
 ### Ce que j'ai développé (Soltani Asma)
 
@@ -373,7 +373,7 @@ L'implémentation fournie respecte :
 L'implémentation utilise deux critères simultanés :
 ```python
 if error < epsilon and abs(fx) < tolerance_f:
-    # Convergence atteinte
+   
 ```
 
 Cela assure que :
@@ -406,10 +406,10 @@ Pour f(x) = x² - 2 :
 ## Licence
 
 Projet académique réalisé dans le cadre du cours d'Analyse Numérique.
-Tous droits réservés aux auteurs.
 
 ---
 
 **Date de réalisation :** Décembre 2025
-**Institution :** [Votre Université]
-**Cours :** Analyse Numérique
+**Institution :** University Of Science And Technology Houari Boumediene
+**Cours :** Analyse Numérique - Madame Dahmani 
+**TD :** Monsieur Got
