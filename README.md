@@ -8,7 +8,7 @@ Ce projet académique implémente et compare trois méthodes numériques classiq
 ### Membres du groupe -groupe 4 Acad B
 - **Soltani Asma** `222231640602`: Méthode de Newton-Raphson + Programme principal
 - **Triaki Hiba** `242431461313` : Méthode des Approximations Successives
-- **Numidia** : Méthode de Dichotomie
+- **Smai Numidia** `232431541807` : Méthode de Dichotomie
 
 ---
 
@@ -168,14 +168,10 @@ pip install numpy matplotlib
 ### Interface en Ligne de Commande
 
 ```bash
-# Utilisation basique
 python main.py
 
 # Spécifier une fonction
 python main.py --function poly5
-
-# Initialisation et précision personnalisées
-python main.py --function sqrt2 --x0 1.5 --epsilon 1e-12
 
 # Sauvegarder les graphiques
 python main.py --function sqrt2 --save-plots
@@ -191,13 +187,5 @@ python main.py --interactive
 
 ```bash
 python main.py --list
-```
-
-### Options Principales
-
-```bash
-python main.py --function <clé> --x0 <estimation_initiale> --epsilon <précision>
-python main.py --interactive    # Mode interactif
-python main.py --list          # Liste des fonctions disponibles
 ```
 
